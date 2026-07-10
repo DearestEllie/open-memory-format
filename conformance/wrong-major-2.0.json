@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "$format": "https://github.com/DearestEllie/open-memory-format",
+    "formatVersion": "2.0",
+    "generatedAt": "2032-06-01T12:00:00.000Z",
+    "archiveId": "arch_major_20",
+    "archiveName": "Breaking-Change Archive",
+    "counts": {}
+  },
+  "archive": {
+    "id": "arch_major_20",
+    "name": "Breaking-Change Archive"
+  },
+  "chapters": [],
+  "detailCards": [],
+  "stories": [],
+  "recipes": [],
+  "timeline": [],
+  "letters": [],
+  "photos": [],
+  "voices": [],
+  "thingsLoved": [],
+  "privateNotes": [],
+  "contributors": [],
+  "media": [],
+  "mediaFiles": [],
+  "readme": "A 2.0 document. A 1.x reader must reject it loudly, never misread it."
+}

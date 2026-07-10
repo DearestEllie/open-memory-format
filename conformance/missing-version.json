@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "generatedAt": "2026-01-15T08:00:00.000Z",
+    "archiveId": "arch_nover",
+    "archiveName": "Unversioned Archive",
+    "counts": {}
+  },
+  "archive": {
+    "id": "arch_nover",
+    "name": "Unversioned Archive"
+  },
+  "chapters": [],
+  "detailCards": [],
+  "stories": [],
+  "recipes": [],
+  "timeline": [],
+  "letters": [],
+  "photos": [],
+  "voices": [],
+  "thingsLoved": [],
+  "privateNotes": [],
+  "contributors": [],
+  "media": [],
+  "mediaFiles": [],
+  "readme": "No manifest.formatVersion. A reader must reject this rather than guess."
+}
