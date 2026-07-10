@@ -1,0 +1,291 @@
+{
+  "manifest": {
+    "formatVersion": "1.0",
+    "generatedAt": "2026-07-10T12:00:00.000Z",
+    "archiveId": "arch_9f2c1e",
+    "archiveName": "Eleanor \"Ellie\" Marsh",
+    "counts": {
+      "chapters": 2,
+      "stories": 2,
+      "recipes": 1,
+      "timeline": 2,
+      "letters": 1,
+      "photos": 1,
+      "voices": 1,
+      "thingsLoved": 1,
+      "detailCards": 2,
+      "privateNotes": 1,
+      "contributors": 2,
+      "media": 1,
+      "mediaFiles": 2
+    }
+  },
+  "archive": {
+    "id": "arch_9f2c1e",
+    "slug": "ellie-marsh",
+    "name": "Eleanor \"Ellie\" Marsh",
+    "nickname": "Ellie",
+    "relationship": "grandmother",
+    "status": "deceased",
+    "subjectType": "loved_one",
+    "birth": "1936",
+    "death": "spring 2021",
+    "audience": "the grandchildren",
+    "privacy": "family",
+    "approvalMode": "trusted",
+    "cover": { "hue": 32 },
+    "intro": "Ellie kept the kettle warm and the door open.",
+    "why": "So the grandchildren know her voice, not just her dates.",
+    "progress": {
+      "stories": 2,
+      "photos": 1,
+      "timeline": 2,
+      "letters": 1,
+      "contributors": 2,
+      "recordings": 1,
+      "pending": 0
+    },
+    "accent": 32,
+    "allowVisitorMemories": false,
+    "allowSearchIndexing": false,
+    "memorialGivingLabel": "",
+    "memorialGivingUrl": ""
+  },
+  "chapters": [
+    {
+      "id": "chap_01",
+      "archiveId": "arch_9f2c1e",
+      "title": "The farm years",
+      "description": "Before the move to town.",
+      "position": 1,
+      "visibility": "family"
+    },
+    {
+      "id": "chap_02",
+      "archiveId": "arch_9f2c1e",
+      "title": "The kitchen on Maple Street",
+      "description": "Where everyone ended up eventually.",
+      "position": 2,
+      "visibility": "family"
+    }
+  ],
+  "detailCards": [
+    {
+      "id": "card_01",
+      "archiveId": "arch_9f2c1e",
+      "kind": "saying",
+      "label": "What she always said",
+      "value": "\"Sit down, you'll eat something.\"",
+      "position": 1,
+      "visibility": "family"
+    },
+    {
+      "id": "card_02",
+      "archiveId": "arch_9f2c1e",
+      "kind": "song",
+      "label": "The song she hummed",
+      "value": "Que Sera, Sera",
+      "position": 2,
+      "visibility": "family"
+    }
+  ],
+  "stories": [
+    {
+      "id": "mem_01",
+      "archiveId": "arch_9f2c1e",
+      "type": "ordinary_day",
+      "title": "Saturday mornings",
+      "contributor": "Ruth Marsh",
+      "relationship": "daughter",
+      "era": "the 1970s",
+      "place": "the farm",
+      "people": ["Ruth", "Ellie"],
+      "section": "chapters",
+      "chapterId": "chap_01",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["mornings", "farm"],
+      "body": "She was up before any of us, radio low, bread already proving.",
+      "alternateOf": ""
+    },
+    {
+      "id": "mem_02",
+      "archiveId": "arch_9f2c1e",
+      "type": "funny_story",
+      "title": "The goose incident",
+      "contributor": "Tom Marsh",
+      "relationship": "grandson",
+      "era": "summer, sometime in the 80s",
+      "place": "the back field",
+      "people": ["Tom", "Ellie"],
+      "section": "chapters",
+      "chapterId": "chap_01",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["funny"],
+      "body": "Grandma versus the goose. The goose did not win.",
+      "alternateOf": "mem_01"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mem_03",
+      "archiveId": "arch_9f2c1e",
+      "type": "recipe",
+      "title": "Ellie's soda bread",
+      "contributor": "Ruth Marsh",
+      "relationship": "daughter",
+      "era": "",
+      "place": "the kitchen on Maple Street",
+      "people": [],
+      "section": "chapters",
+      "chapterId": "chap_02",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["recipe", "bread"],
+      "body": "Four cups flour, a teaspoon of soda, buttermilk until it feels right. She never measured the buttermilk.",
+      "alternateOf": ""
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl_01",
+      "archiveId": "arch_9f2c1e",
+      "title": "Born in County Clare",
+      "date": "1936",
+      "precision": "year",
+      "category": "life",
+      "visibility": "family",
+      "desc": ""
+    },
+    {
+      "id": "tl_02",
+      "archiveId": "arch_9f2c1e",
+      "title": "Moved to Maple Street",
+      "date": "the early 60s",
+      "precision": "approx",
+      "category": "home",
+      "visibility": "family",
+      "desc": "Nobody remembers the exact year, and that's fine."
+    }
+  ],
+  "letters": [
+    {
+      "id": "let_01",
+      "archiveId": "arch_9f2c1e",
+      "author": "Ruth Marsh",
+      "recipient": "the grandchildren",
+      "title": "What I want you to know about her",
+      "date": "2026-05-01",
+      "visibility": "family",
+      "status": "approved",
+      "body": "She would have liked that you're reading this together."
+    }
+  ],
+  "photos": [
+    {
+      "id": "ph_01",
+      "archiveId": "arch_9f2c1e",
+      "caption": "Ellie at the farm gate, laughing at something off-camera.",
+      "album": "The farm years",
+      "era": "the 1970s",
+      "hue": 32,
+      "visibility": "family",
+      "featured": true
+    }
+  ],
+  "voices": [
+    {
+      "id": "med_01",
+      "archiveId": "arch_9f2c1e",
+      "mediaType": "audio",
+      "title": "Ellie telling the goose story herself",
+      "duration": "2:14",
+      "contributor": "Tom Marsh",
+      "visibility": "family",
+      "transcript": true,
+      "date": "2019"
+    }
+  ],
+  "thingsLoved": [
+    {
+      "id": "tlv_01",
+      "archiveId": "arch_9f2c1e",
+      "title": "Strong tea, milk first",
+      "category": "food",
+      "why": "She judged every household by its tea.",
+      "emoji": "🫖"
+    }
+  ],
+  "privateNotes": [
+    {
+      "id": "pn_01",
+      "archiveId": "arch_9f2c1e",
+      "title": "Steward note",
+      "body": "Ask Ruth before publishing anything about the hospital years.",
+      "visibility": "private"
+    }
+  ],
+  "contributors": [
+    {
+      "id": "con_01",
+      "archiveId": "arch_9f2c1e",
+      "name": "Ruth Marsh",
+      "relationship": "daughter",
+      "permission": "editor",
+      "status": "active",
+      "contributions": 2,
+      "isMinor": false,
+      "guardianName": null,
+      "guardianApprovedAt": null,
+      "autoApprove": true
+    },
+    {
+      "id": "con_02",
+      "archiveId": "arch_9f2c1e",
+      "name": "Tom Marsh",
+      "relationship": "grandson",
+      "permission": "submit_only",
+      "status": "active",
+      "contributions": 2,
+      "isMinor": false,
+      "guardianName": null,
+      "guardianApprovedAt": null,
+      "autoApprove": false
+    }
+  ],
+  "media": [
+    {
+      "id": "med_01",
+      "archiveId": "arch_9f2c1e",
+      "mediaType": "audio",
+      "title": "Ellie telling the goose story herself",
+      "duration": "2:14",
+      "contributor": "Tom Marsh",
+      "visibility": "family",
+      "transcript": true,
+      "date": "2019"
+    }
+  ],
+  "mediaFiles": [
+    {
+      "mediaId": "med_01",
+      "mediaType": "audio",
+      "storageKey": "arch_9f2c1e/audio/med_01.m4a",
+      "checksumSha256": "3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855c",
+      "byteSize": 2148332,
+      "originalFilename": "goose-story.m4a",
+      "contentType": "audio/mp4"
+    },
+    {
+      "mediaId": "ph_01",
+      "mediaType": "photo",
+      "storageKey": "arch_9f2c1e/photo/ph_01.jpg",
+      "checksumSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byteSize": 481920,
+      "originalFilename": "farm-gate.jpg",
+      "contentType": "image/jpeg"
+    }
+  ],
+  "readme": "# Eleanor \"Ellie\" Marsh — archive export\n\nThis is a complete, open export of a DearestEllie family archive.\nIt is yours to keep, read, and move anywhere. No part of it depends on us.\n\n- Format version: 1.0\n- Generated: 2026-07-10T12:00:00.000Z\n\nOpen the .json file in any text editor, or load it with any JSON tool.\nEvery section is a plain array of records. Dates are kept as written —\nan approximate year stays approximate; nothing was invented."
+}
