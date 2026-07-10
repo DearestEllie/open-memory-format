@@ -1,0 +1,224 @@
+{
+  "manifest": {
+    "$format": "https://github.com/DearestEllie/open-memory-format",
+    "formatVersion": "1.1",
+    "generatedAt": "2026-07-10T09:30:00.000Z",
+    "archiveId": "arch_nh_41d7",
+    "archiveName": "Nora Hart",
+    "counts": {
+      "chapters": 1,
+      "stories": 2,
+      "recipes": 1,
+      "timeline": 1,
+      "letters": 1,
+      "photos": 1,
+      "voices": 0,
+      "thingsLoved": 1,
+      "detailCards": 1,
+      "privateNotes": 0,
+      "contributors": 2,
+      "media": 0,
+      "mediaFiles": 1
+    }
+  },
+  "archive": {
+    "id": "arch_nh_41d7",
+    "slug": "nora-hart",
+    "name": "Nora Hart",
+    "nickname": "Nonie",
+    "relationship": "great-aunt",
+    "status": "deceased",
+    "subjectType": "loved_one",
+    "birth": "1929",
+    "death": "January 2018",
+    "audience": "the whole Hart family",
+    "privacy": "family",
+    "approvalMode": "trusted",
+    "cover": { "hue": 208 },
+    "intro": "Nora ran the town library for forty years and never once returned a book late.",
+    "why": "Because the little ones only knew her as a name on a shelf plaque.",
+    "progress": {
+      "stories": 2,
+      "photos": 1,
+      "timeline": 1,
+      "letters": 1,
+      "contributors": 2,
+      "recordings": 0,
+      "pending": 0
+    },
+    "accent": 208,
+    "allowVisitorMemories": false,
+    "allowSearchIndexing": false,
+    "memorialGivingLabel": "",
+    "memorialGivingUrl": ""
+  },
+  "chapters": [
+    {
+      "id": "chap_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "title": "The library years",
+      "description": "1958 to 1998, behind the same oak desk.",
+      "position": 1,
+      "visibility": "family"
+    }
+  ],
+  "detailCards": [
+    {
+      "id": "card_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "kind": "saying",
+      "label": "What she always said",
+      "value": "\"A book is never late if it comes back loved.\"",
+      "position": 1,
+      "visibility": "family"
+    }
+  ],
+  "stories": [
+    {
+      "id": "mem_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "type": "story",
+      "title": "The night she kept the library open",
+      "contributor": "June Hart",
+      "relationship": "niece",
+      "era": "the winter of 1978",
+      "place": "Millbrook Public Library",
+      "people": ["Nora", "June"],
+      "section": "chapters",
+      "chapterId": "chap_nh_01",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["library", "snow"],
+      "body": "The blizzard closed everything but her. She lit the reading lamps and let half the street sleep in the stacks.",
+      "alternateOf": ""
+    },
+    {
+      "id": "mem_nh_02",
+      "archiveId": "arch_nh_41d7",
+      "type": "quote",
+      "title": "On patience",
+      "contributor": "Samuel Hart",
+      "relationship": "great-nephew",
+      "era": "sometime in the 90s",
+      "place": "",
+      "people": ["Nora"],
+      "section": "chapters",
+      "chapterId": "chap_nh_01",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["sayings"],
+      "body": "\"Nothing worth reading was written in a hurry, and nothing worth doing either.\"",
+      "alternateOf": ""
+    }
+  ],
+  "recipes": [
+    {
+      "id": "mem_nh_03",
+      "archiveId": "arch_nh_41d7",
+      "type": "recipe",
+      "title": "Nonie's brown-butter shortbread",
+      "contributor": "June Hart",
+      "relationship": "niece",
+      "era": "",
+      "place": "her kitchen on Elm Row",
+      "people": [],
+      "section": "chapters",
+      "chapterId": "chap_nh_01",
+      "visibility": "family",
+      "status": "approved",
+      "tags": ["recipe", "baking"],
+      "body": "Brown a half pound of butter until it smells like toast. Two cups flour, half a cup sugar, a pinch of salt. Press into the tin with the back of a spoon — she said hands make it tough. Score before baking, 325 until the edges go gold.",
+      "alternateOf": ""
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "title": "Became head librarian at Millbrook",
+      "date": "1958",
+      "precision": "year",
+      "category": "work",
+      "visibility": "family",
+      "desc": "Youngest head librarian the town had ever appointed."
+    }
+  ],
+  "letters": [
+    {
+      "id": "let_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "author": "June Hart",
+      "recipient": "the grandchildren and great-grandchildren",
+      "title": "The card catalog of her heart",
+      "date": "2026-06-14",
+      "visibility": "family",
+      "status": "approved",
+      "body": "If you ever wonder whether she would have liked you: she kept a shelf for every kind of person who walked in."
+    }
+  ],
+  "photos": [
+    {
+      "id": "ph_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "caption": "Nora at the oak desk, stamp in hand, 1983.",
+      "album": "The library years",
+      "era": "1983",
+      "hue": 208,
+      "visibility": "family",
+      "featured": true
+    }
+  ],
+  "voices": [],
+  "thingsLoved": [
+    {
+      "id": "tlv_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "title": "The smell of new paperbacks",
+      "category": "small joys",
+      "why": "She opened every delivery box like a birthday present.",
+      "emoji": "📚"
+    }
+  ],
+  "privateNotes": [],
+  "contributors": [
+    {
+      "id": "con_nh_01",
+      "archiveId": "arch_nh_41d7",
+      "name": "June Hart",
+      "relationship": "niece",
+      "permission": "editor",
+      "status": "active",
+      "contributions": 3,
+      "isMinor": false,
+      "guardianName": null,
+      "guardianApprovedAt": null,
+      "autoApprove": true
+    },
+    {
+      "id": "con_nh_02",
+      "archiveId": "arch_nh_41d7",
+      "name": "Samuel Hart",
+      "relationship": "great-nephew",
+      "permission": "submit_only",
+      "status": "active",
+      "contributions": 1,
+      "isMinor": false,
+      "guardianName": null,
+      "guardianApprovedAt": null,
+      "autoApprove": false
+    }
+  ],
+  "media": [],
+  "mediaFiles": [
+    {
+      "mediaId": "ph_nh_01",
+      "mediaType": "photo",
+      "storageKey": "arch_nh_41d7/photo/ph_nh_01.jpg",
+      "checksumSha256": "a7c9b2e1f04d6883c5a1b0d9e2f47c6a8b3d5e0f1a2c4b6d8e0f2a4c6b8d0e1f",
+      "byteSize": 302118,
+      "originalFilename": "nora-oak-desk-1983.jpg",
+      "contentType": "image/jpeg"
+    }
+  ],
+  "readme": "# Nora Hart — archive export\n\nThis is a complete, open export of a DearestEllie family archive, in the\nOpen Memory Format (files named .omf.json / .omf.zip).\nIt is yours to keep, read, and move anywhere. No part of it depends on us.\n\n- Format version: 1.1\n- Format specification: https://github.com/DearestEllie/open-memory-format\n- Generated: 2026-07-10T09:30:00.000Z\n\nOpen the .json file in any text editor, or load it with any JSON tool.\nEvery section is a plain array of records. Dates are kept as written —\nan approximate year stays approximate; nothing was invented."
+}

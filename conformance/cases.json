@@ -1,0 +1,46 @@
+{
+  "description": "Conformance fixtures for Open Memory Format readers. A reader claims conformance by accepting every fixture with \"valid\": true and rejecting every fixture with \"valid\": false, for the reason given. See conformance/README.md.",
+  "specVersion": "1.1",
+  "cases": [
+    {
+      "file": "minimal-1.0.json",
+      "valid": true,
+      "reason": "A minimal 1.0 document with no $format and no mediaFiles. Readers MUST accept any 1.x document and treat a missing mediaFiles as an empty list."
+    },
+    {
+      "file": "full-1.1.json",
+      "valid": true,
+      "reason": "A complete 1.1 document ($format, all sections, a mediaFiles entry). Identical to examples/nora-hart.omf.json."
+    },
+    {
+      "file": "future-minor-1.9.json",
+      "valid": true,
+      "reason": "A hypothetical future minor version (1.9) with unknown manifest, record, and top-level fields. Readers MUST accept it and ignore what they don't know; importers SHOULD preserve the unknown fields."
+    },
+    {
+      "file": "wrong-major-2.0.json",
+      "valid": false,
+      "reason": "formatVersion 2.0: a different major version is a breaking change. Readers MUST reject it loudly, never misread it."
+    },
+    {
+      "file": "missing-version.json",
+      "valid": false,
+      "reason": "manifest.formatVersion is absent. Readers MUST reject a document whose version they cannot establish."
+    },
+    {
+      "file": "missing-archive.json",
+      "valid": false,
+      "reason": "The archive section is missing. Readers MUST reject a document with no archive (or an archive without a string id)."
+    },
+    {
+      "file": "missing-section.json",
+      "valid": false,
+      "reason": "The letters section is missing. Every section except mediaFiles is required; readers MUST reject the document."
+    },
+    {
+      "file": "not-an-object.json",
+      "valid": false,
+      "reason": "The document is a JSON array, not an object. Readers MUST reject anything that is not a JSON object."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * The open memory format — TypeScript definitions, version 1.0.
+ * The open memory format — TypeScript definitions, version 1.1.
  *
  * Self-contained copy of the format types from the DearestEllie codebase
  * (`lib/export-format.ts` + `lib/types.ts`), published so any implementation
@@ -9,8 +9,21 @@
  * Dedicated to the public domain under CC0 1.0.
  */
 
-/** Bump on any breaking change to the export shape. */
-export declare const EXPORT_FORMAT_VERSION: "1.0";
+/**
+ * The version this repository documents. `major.minor`: a minor bump is
+ * additive only (readers accept any `1.x` and ignore unknown fields); a major
+ * bump is breaking and must be rejected loudly. See SPEC.md §6.
+ */
+export declare const EXPORT_FORMAT_VERSION: "1.1";
+
+/** The major version a conforming 1.x reader understands. */
+export declare const EXPORT_FORMAT_MAJOR: 1;
+
+/**
+ * The canonical identifier of the format, embedded in every 1.1+ document as
+ * `manifest.$format`. Also the URL of the public specification.
+ */
+export declare const EXPORT_FORMAT_URL: "https://github.com/DearestEllie/open-memory-format";
 
 /** Stable record identifier (an opaque string). */
 export type PlatformId = string;
@@ -228,7 +241,10 @@ export interface PrivateNote {
 }
 
 export interface ExportManifest {
-  formatVersion: typeof EXPORT_FORMAT_VERSION;
+  /** Self-identification: the format's canonical URL ({@link EXPORT_FORMAT_URL}). Absent on 1.0 documents. */
+  $format?: string;
+  /** `major.minor`. Readers accept any document with major {@link EXPORT_FORMAT_MAJOR}. */
+  formatVersion: string;
   /** ISO 8601 timestamp. */
   generatedAt: string;
   archiveId: string;
@@ -274,7 +290,10 @@ export interface ArchiveExportDocument {
   contributors: Contributor[];
   /** Display metadata for every photo, audio, and video item. */
   media: MediaItem[];
-  /** Every original's storage key + SHA-256 checksum + size — the verification manifest. */
+  /**
+   * Every original's storage key + SHA-256 checksum + size — the verification
+   * manifest. Absent on early 1.0 documents; readers treat absence as `[]`.
+   */
   mediaFiles: MediaFileManifestEntry[];
   /** Human-readable README explaining how to read the export without the producing host. */
   readme: string;

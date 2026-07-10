@@ -1,6 +1,7 @@
 {
   "manifest": {
-    "formatVersion": "1.0",
+    "$format": "https://github.com/DearestEllie/open-memory-format",
+    "formatVersion": "1.1",
     "generatedAt": "2026-07-10T12:00:00.000Z",
     "archiveId": "arch_9f2c1e",
     "archiveName": "Eleanor \"Ellie\" Marsh",
@@ -287,5 +288,5 @@
       "contentType": "image/jpeg"
     }
   ],
-  "readme": "# Eleanor \"Ellie\" Marsh — archive export\n\nThis is a complete, open export of a DearestEllie family archive.\nIt is yours to keep, read, and move anywhere. No part of it depends on us.\n\n- Format version: 1.0\n- Generated: 2026-07-10T12:00:00.000Z\n\nOpen the .json file in any text editor, or load it with any JSON tool.\nEvery section is a plain array of records. Dates are kept as written —\nan approximate year stays approximate; nothing was invented."
+  "readme": "# Eleanor \"Ellie\" Marsh — archive export\n\nThis is a complete, open export of a DearestEllie family archive, in the\nOpen Memory Format (files named .omf.json / .omf.zip).\nIt is yours to keep, read, and move anywhere. No part of it depends on us.\n\n- Format version: 1.1\n- Format specification: https://github.com/DearestEllie/open-memory-format\n- Generated: 2026-07-10T12:00:00.000Z\n\nOpen the .json file in any text editor, or load it with any JSON tool.\nEvery section is a plain array of records. Dates are kept as written —\nan approximate year stays approximate; nothing was invented."
 }

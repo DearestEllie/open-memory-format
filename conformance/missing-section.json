@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "formatVersion": "1.1",
+    "generatedAt": "2026-01-15T08:00:00.000Z",
+    "archiveId": "arch_nosection",
+    "archiveName": "Sectionless Archive",
+    "counts": {}
+  },
+  "archive": {
+    "id": "arch_nosection",
+    "name": "Sectionless Archive"
+  },
+  "chapters": [],
+  "detailCards": [],
+  "stories": [],
+  "recipes": [],
+  "timeline": [],
+  "photos": [],
+  "voices": [],
+  "thingsLoved": [],
+  "privateNotes": [],
+  "contributors": [],
+  "media": [],
+  "mediaFiles": [],
+  "readme": "The letters section is missing (only mediaFiles may be absent). A reader must reject this."
+}

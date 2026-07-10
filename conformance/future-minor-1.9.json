@@ -1,0 +1,54 @@
+{
+  "manifest": {
+    "$format": "https://github.com/DearestEllie/open-memory-format",
+    "formatVersion": "1.9",
+    "generatedAt": "2031-03-02T10:00:00.000Z",
+    "archiveId": "arch_future_19",
+    "archiveName": "Hypothetical Future Archive",
+    "counts": { "stories": 1, "blessings": 1 },
+    "checksumAlgorithm": "sha256"
+  },
+  "archive": {
+    "id": "arch_future_19",
+    "name": "Hypothetical Future Archive",
+    "heraldicMotto": "an unknown field readers must ignore"
+  },
+  "chapters": [],
+  "detailCards": [],
+  "stories": [
+    {
+      "id": "mem_future_01",
+      "archiveId": "arch_future_19",
+      "type": "story",
+      "title": "A story with fields from the future",
+      "contributor": "Someone",
+      "relationship": "descendant",
+      "era": "the 2030s",
+      "place": "",
+      "people": [],
+      "section": "chapters",
+      "chapterId": "",
+      "visibility": "family",
+      "status": "approved",
+      "tags": [],
+      "body": "Minor versions are additive; the two unknown fields below are data, not errors.",
+      "alternateOf": "",
+      "sentimentHint": "warm",
+      "readAloudDuration": "0:41"
+    }
+  ],
+  "recipes": [],
+  "timeline": [],
+  "letters": [],
+  "photos": [],
+  "voices": [],
+  "thingsLoved": [],
+  "privateNotes": [],
+  "contributors": [],
+  "media": [],
+  "mediaFiles": [],
+  "blessings": [
+    { "id": "bless_01", "text": "A hypothetical new 1.9 section. A 1.1 reader must ignore it, and an importer should preserve it." }
+  ],
+  "readme": "A hypothetical 1.9 document. Any 1.x reader must accept it and ignore the fields and sections it does not know."
+}

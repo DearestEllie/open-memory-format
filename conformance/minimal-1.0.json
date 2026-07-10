@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "formatVersion": "1.0",
+    "generatedAt": "2026-01-15T08:00:00.000Z",
+    "archiveId": "arch_min_10",
+    "archiveName": "Minimal 1.0 Archive",
+    "counts": {}
+  },
+  "archive": {
+    "id": "arch_min_10",
+    "name": "Minimal 1.0 Archive"
+  },
+  "chapters": [],
+  "detailCards": [],
+  "stories": [],
+  "recipes": [],
+  "timeline": [],
+  "letters": [],
+  "photos": [],
+  "voices": [],
+  "thingsLoved": [],
+  "privateNotes": [],
+  "contributors": [],
+  "media": [],
+  "readme": "A minimal 1.0 document: no $format, no mediaFiles. Readers must accept it and treat mediaFiles as an empty list."
+}
