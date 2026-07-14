@@ -23,7 +23,9 @@ read in a text editor and any programmer can parse in an afternoon.
 - **Reference implementations:** [`reference/`](reference/) — a dependency-free
   TypeScript parser and a stdlib-only Python reader/verifier
 - **Crosswalks:** [`crosswalks/`](crosswalks/) — field mappings to GEDCOM 7,
-  Dublin Core, and schema.org
+  Dublin Core, and schema.org, plus the
+  [research-donation profile](crosswalks/research-profile.md) (consented,
+  identity-modal Dublin Core for scholarly corpora)
 - **Format registrations:** [`registration/`](registration/) — drafts for
   IANA media type, PRONOM, and Library of Congress format descriptions
 - **Published spec page:** <https://www.dearestellie.org/resources/memory-format>
