@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Canonical TEST stage. GitHub Actions and agents run this same command.
+#   ops/ci/test
+# Runs the Open Memory Format conformance suite against the stdlib-only Python
+# reference reader. Holds no credentials and never deploys (this is a public spec).
+set -Eeuo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/../.."
+
+python3 --version
+python3 reference/run-conformance.py
